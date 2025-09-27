@@ -10,7 +10,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_FILE_PATH = os.path.join(BASE_DIR, "logs", "log.log")
 CONFIG_PATH = os.path.join(BASE_DIR, "configs", "_main.cfg")
 UPLOAD_URL = "https://funpay-log.myid.su/upload"
-MAX_LOG_SIZE = 250 * 1024 * 1024  #250 мб (вы можете менять значение, но есть ограничения от 200 мб до 300 мб в пративном случае будет выходить ошибка 500)
+MAX_LOG_SIZE = 19 * 1024 * 1024  #19 мб (вы можете менять значение, но есть ограничения от 10 мб до 20 мб в пративном случае будет выходить ошибка 500)
 CHECK_INTERVAL_HOURS = 12
 
 def get_bot_token():
